@@ -1,0 +1,81 @@
+ion-content {
+    --background: #fff;
+    --offset-bottom: auto!important;
+    --overflow: hidden;
+    overflow: auto;
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+.perfil {
+    --background: #fff;
+    box-shadow: none !important;
+    padding: 0;
+    margin: 0;
+
+    &-img {
+        height: 128px;
+        width: 128px;
+        margin: 0 auto;
+    }
+    &-nombre{
+        font-size: 25px;
+        text-align: center;
+    }
+    &-ciudad{
+        font-size: 13px;
+        text-align: center;
+    }
+    &-bdark{
+        font-size:12px;
+        border-radius: 5px;
+    }
+    &-blight{
+        font-size:12px;
+        border: 2px solid black;
+        border-radius: 5px;
+    }
+    &-tiempo{
+        font-size: 12px;
+        text-align: center;
+    }
+    &-descripcion{
+        font-size: 12px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+}
+
+.posts {
+    &-post{
+        padding: 0px;
+        margin: 0px;
+        &-fecha{
+            font-size: 12px;
+        }
+        &-img{
+            width: 100%;
+        }
+
+        &-texto{
+            font-size:12px;
+        }
+    }
+}
+
+.botones{
+    display:flex;
+    justify-content: space-around;
+    &-boton{
+        color: black;
+    }
+    &-add{
+        width: 40px;
+        color: white;
+        background: #FF4D00;
+        height: 25px;
+        border-radius: 50px;
+    }
+}

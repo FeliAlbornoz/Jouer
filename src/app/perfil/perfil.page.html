@@ -1,9 +1,74 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>perfil</ion-title>
-  </ion-toolbar>
 </ion-header>
 
 <ion-content>
 
+  <ion-card class="perfil">
+    <ion-card-header>
+      <ion-avatar class="perfil-img">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png" />
+      </ion-avatar>
+      <ion-card-title class="perfil-nombre">JamesTheKing23</ion-card-title>
+      <ion-card-subtitle class="perfil-ciudad">SAN FRANCISCO, CA</ion-card-subtitle>
+    </ion-card-header>
+  
+    <ion-card-content>
+      <ion-button expand="block" color="dark" class="perfil-bdark">Seguir</ion-button>
+      <ion-button expand="block" color="light" class="perfil-blight">Mensaje directo</ion-button>
+      <p class="perfil-tiempo">Es miembro hace 5 meses</p>
+      <p class="perfil-descripcion">Me gusta gastar mi tiempo jugando videojuegos, más que nada Fortnite.
+        Si me ves en directo alguna vez, dime que vienes de acá y te saluidaré!</p>
+    </ion-card-content>
+  </ion-card>
+  <ion-item class="posts">
+    <ion-card class="posts-post">
+      <ion-card-header>
+        <ion-card-subtitle class="posts-post-fecha">15 Septiembre, 2021</ion-card-subtitle>
+        <ion-img class="posts-post-img" src="https://www.pulsorunner.com/wp-content/uploads/2014/10/default-img.gif"></ion-img>
+      </ion-card-header>
+      <ion-card-content>
+        <p class="posts-post-texto">Sumando victorias al historial...
+          Quien se mete a por unas partidas?</p>
+      </ion-card-content>
+    </ion-card>
+  </ion-item>
+  <ion-item class="posts">
+    <ion-card class="posts-post">
+      <ion-card-header>
+        <ion-card-subtitle class="posts-post-fecha">13 Septiembre, 2021</ion-card-subtitle>
+        <ion-img class="posts-post-img" src="https://www.pulsorunner.com/wp-content/uploads/2014/10/default-img.gif"></ion-img>
+      </ion-card-header>
+      <ion-card-content>
+        <p class="posts-post-texto">Estoy en vivo ahora mismo!!!
+          Vamos estar jugando el torneo de Thegrefg
+          Pasate a ver como nos va.
+          www.twitch.tv/JamesTheKing23</p>
+      </ion-card-content>
+    </ion-card>
+  </ion-item>
+  
+
+  
+
 </ion-content>
+<ion-footer>
+  <ion-toolbar>
+    <ion-buttons class="botones">
+      <ion-button class="botones-boton">
+        <ion-icon name="home-outline"></ion-icon>
+      </ion-button>
+      <ion-button class="botones-boton">
+        <ion-icon name="search-outline"></ion-icon>
+      </ion-button>
+      <ion-button class="botones-add">
+        <ion-icon name="add-outline"></ion-icon>
+      </ion-button>
+      <ion-button class="botones-boton">
+        <ion-icon name="chatbubble-outline"></ion-icon>
+      </ion-button>
+      <ion-button class="botones-boton">
+        <ion-icon name="person-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-footer>

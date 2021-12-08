@@ -46,24 +46,23 @@
       </ion-card-content>
     </ion-card>
   </ion-item>
-  
-
-  
-
+  <ion-item>
+    <ion-button expand="block" color="light" class="perfil-blight2">Ver más</ion-button>
+  </ion-item>
 </ion-content>
 <ion-footer>
   <ion-toolbar>
     <ion-buttons class="botones">
-      <ion-button class="botones-boton">
+      <ion-button class="botones-boton" [routerLink]="['/home']">
         <ion-icon name="home-outline"></ion-icon>
       </ion-button>
-      <ion-button class="botones-boton">
+      <ion-button class="botones-boton" [routerLink]="['/buscar']">
         <ion-icon name="search-outline"></ion-icon>
       </ion-button>
       <ion-button class="botones-add">
         <ion-icon name="add-outline"></ion-icon>
       </ion-button>
-      <ion-button class="botones-boton">
+      <ion-button class="botones-boton" [routerLink]="['/chat']">
         <ion-icon name="chatbubble-outline"></ion-icon>
       </ion-button>
       <ion-button class="botones-boton">

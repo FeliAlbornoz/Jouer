@@ -1,9 +1,71 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>chat</ion-title>
+    <ion-title>Comunidad</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
+    <ion-list class="chats">
+      <ion-item class="chats-chat">
+        <ion-avatar class="chats-chat-img" slot="start">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png" />
+        </ion-avatar>
+        <ion-label>
+          <h2 class="chats-chat-top">Unas partidas?</h2>
+          <p class="chats-chat-text">Alan: yo estoy conectado ya</p>
+        </ion-label>
+      </ion-item>
 
+      <ion-item class="chats-chat">
+        <ion-avatar class="chats-chat-img" slot="start">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png" />
+        </ion-avatar>
+        <ion-label>
+          <h2 class="chats-chat-top">Unas partidas?</h2>
+          <p class="chats-chat-text">Alan: yo estoy conectado ya</p>
+        </ion-label>
+      </ion-item>
+
+      <ion-item class="chats-chat">
+        <ion-avatar class="chats-chat-img" slot="start">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png" />
+        </ion-avatar>
+        <ion-label>
+          <h2 class="chats-chat-top">Unas partidas?</h2>
+          <p class="chats-chat-text">Alan: yo estoy conectado ya</p>
+        </ion-label>
+      </ion-item>
+
+      <ion-item class="chats-chat">
+        <ion-avatar class="chats-chat-img" slot="start">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png" />
+        </ion-avatar>
+        <ion-label>
+          <h2 class="chats-chat-top">Unas partidas?</h2>
+          <p class="chats-chat-text">Alan: yo estoy conectado ya</p>
+        </ion-label>
+      </ion-item>
+    </ion-list>
 </ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <ion-buttons class="botones">
+      <ion-button class="botones-boton" [routerLink]="['/home']">
+        <ion-icon name="home-outline"></ion-icon>
+      </ion-button>
+      <ion-button class="botones-boton" [routerLink]="['/buscar']">
+        <ion-icon name="search-outline"></ion-icon>
+      </ion-button>
+      <ion-button class="botones-add">
+        <ion-icon name="add-outline"></ion-icon>
+      </ion-button>
+      <ion-button class="botones-boton">
+        <ion-icon name="chatbubble-outline"></ion-icon>
+      </ion-button>
+      <ion-button class="botones-boton" [routerLink]="['/perfil']">
+        <ion-icon name="person-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-footer>

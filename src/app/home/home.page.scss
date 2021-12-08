@@ -1,0 +1,74 @@
+ion-content {
+    --background: #fff;
+    --offset-bottom: auto!important;
+    --overflow: hidden;
+    overflow: auto;
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+
+.ssearch{
+    padding-top: 30px;
+    background: white;
+    height: auto;
+    ion-label{
+        font-size: 30px;
+        padding-bottom: 15px;
+    }
+    ion-input{
+        border: 2px solid black;
+    }
+    ion-input:active{
+        border: 2px solid black;
+    }
+}
+
+h4{
+    padding-left: 20px ;
+    font-size: 12px;
+}
+
+.home{
+    &-article{
+        &-img{
+            --border-radius: 0px;
+            width: 70px;
+            height: 70px;
+        }
+        &-top{
+            font-weight: bolder;
+            font-size: 12px;
+        }
+        &-stars{
+            font-size: 12px;
+        }
+        &-text{
+            font-size: 12px;
+            font-weight: bold;
+        }
+    }
+}
+
+
+.botones{
+    display:flex;
+    justify-content: space-around;
+    &-boton{
+        --color: black;
+    }
+    &-add{
+        width: 40px;
+        --color: white;
+        background: #FF4D00;
+        height: 25px;
+        border-radius: 50px;
+    }
+}
+.perfil-blight2{
+    width: 100%;
+    font-size:12px;
+        border: 2px solid black;
+        border-radius: 5px;
+}

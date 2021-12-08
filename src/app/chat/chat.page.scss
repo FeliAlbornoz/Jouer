@@ -1,0 +1,26 @@
+.chats {
+    &-chat{
+        &-top{
+            font-size: 12px;
+            font-weight: bold;
+        }
+        &-text{
+            font-size: 12px;
+        }
+    }
+}
+
+.botones{
+    display:flex;
+    justify-content: space-around;
+    &-boton{
+        --color: black;
+    }
+    &-add{
+        width: 40px;
+        --color: white;
+        background: #FF4D00;
+        height: 25px;
+        border-radius: 50px;
+    }
+}

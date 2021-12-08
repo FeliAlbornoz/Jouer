@@ -13,6 +13,7 @@ ion-content {
     box-shadow: none !important;
     padding: 0;
     margin: 0;
+    border-radius: 0;
 
     &-img {
         height: 128px;
@@ -49,6 +50,7 @@ ion-content {
 }
 
 .posts {
+    --background: white;
     &-post{
         padding: 0px;
         margin: 0px;
@@ -69,13 +71,20 @@ ion-content {
     display:flex;
     justify-content: space-around;
     &-boton{
-        color: black;
+        --color: black;
     }
     &-add{
         width: 40px;
-        color: white;
+        --color: white;
         background: #FF4D00;
         height: 25px;
         border-radius: 50px;
     }
+}
+
+.perfil-blight2{
+    width: 100%;
+    font-size:12px;
+        border: 2px solid black;
+        border-radius: 5px;
 }

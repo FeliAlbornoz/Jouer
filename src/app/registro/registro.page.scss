@@ -1,0 +1,24 @@
+.input{
+    border: 2px solid black;
+}
+
+.boton-dark{
+    display: block;
+    width: 100%;
+    height: 100%;
+    --background: black;
+    --background-hover: transparent;
+    --background-focused: transparent;
+    --background-activated: transparent;
+}
+
+.flecha{
+    --background: transparent;
+    --background-hover: transparent;
+    --background-focused: transparent;
+    --background-activated: transparent;
+
+    color: black;
+    margin-top: 30px;
+
+}

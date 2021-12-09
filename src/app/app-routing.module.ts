@@ -8,7 +8,7 @@ const routes: Routes = [
   },
   {
     path: '',
-    redirectTo: 'home',
+    redirectTo: 'loggedout',
     pathMatch: 'full'
   },
   {
@@ -34,6 +34,14 @@ const routes: Routes = [
   {
     path: 'buscar',
     loadChildren: () => import('./buscar/buscar.module').then( m => m.BuscarPageModule)
+  },
+  {
+    path: 'nick',
+    loadChildren: () => import('./nick/nick.module').then( m => m.NickPageModule)
+  },
+  {
+    path: 'loggedout',
+    loadChildren: () => import('./loggedout/loggedout.module').then( m => m.LoggedoutPageModule)
   },
 ];
 

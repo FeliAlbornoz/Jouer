@@ -1,9 +1,18 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>login</ion-title>
-  </ion-toolbar>
-</ion-header>
 
 <ion-content>
-
+  <ion-button [routerLink]="['/loggedout']" class="flecha">
+    <ion-icon name="arrow-back-outline"></ion-icon>
+  </ion-button>
+  <ion-item>  
+  <h1>Inicia Sesión</h1>
+  </ion-item>
+  <ion-item>  
+      <ion-input class="input" placeholder="Correo"></ion-input> 
+  </ion-item>
+  <ion-item> 
+    <ion-input type="password" class="input" placeholder="Contraseña"></ion-input>
+  </ion-item>
+  <ion-item> 
+  <ion-button class="boton-dark" [routerLink]="['/home']" >Siguiente</ion-button>
+</ion-item>
 </ion-content>
